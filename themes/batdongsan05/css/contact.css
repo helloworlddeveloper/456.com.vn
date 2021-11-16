@@ -1,0 +1,38 @@
+#contactButton{
+    z-index:1000;
+}
+#contactButton .panel{
+    margin-bottom:0;
+    width:100%;
+    color:#333;
+    display:none
+}
+
+#contactButton .ctb{
+	background:transparent;
+	border:none
+}
+
+.btn-contact{
+	border:1px solid #333;
+	padding:12px 40px;
+	background:transparent
+}
+
+#contactButton .ctb em{
+    margin-right:3px;
+    font-size: 1.6em;
+    vertical-align:middle
+}
+@media (max-width:1199px) {
+    #contactButton .ctb{
+        right:70px;
+    }
+}
+@media (max-width:499px) {
+    #contactButton{
+        right:auto;
+        left:0;
+        width:100%
+    }
+}

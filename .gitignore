@@ -1,0 +1,7 @@
+*.log
+*.cache
+/config.php
+/data/tmp/*.jpg
+/data/tmp/*.png
+/data/tmp/*.jpeg
+*.sql.gz
